@@ -7,7 +7,7 @@ This Application has a search bar where the user enter an English word the he/sh
 # API used
 `https://api.dictionaryapi.dev/api/v2/entries/en/${word}` from free dictionary API. 
 
-# It is made up by
-**HTML
-**CSS
-**Javascript
+# Technologies used
+**HTML**
+**CSS**
+**Javascript**
