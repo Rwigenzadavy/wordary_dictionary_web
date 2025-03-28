@@ -8,6 +8,7 @@ This Application has a search bar where the user enter an English word the he/sh
 `https://api.dictionaryapi.dev/api/v2/entries/en/${word}` from free dictionary API. 
 
 # Technologies used
-**HTMl
-**CSS
-**Javascript
+
+- HTMl
+- CSS
+- Javascript
