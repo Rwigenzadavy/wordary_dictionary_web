@@ -12,3 +12,19 @@ This Application has a search bar where the user enter an English word the he/sh
 - HTMl
 - CSS
 - Javascript
+- REST APIs to fetch data
+
+## GET start with it
+# 1. clone the repository
+   ```bash
+   git clone https://github.com/Rwigenzadavy/wordary_dictionary_web.git
+   ```
+
+# 2. Navigate to the project directory:
+   ```bash
+   cd wordary_dictionary_web  
+   ```
+# 3. open the index.html file in your browser 
+    (you see the form with search bar)
+  - enter the word you want to know its definition in the search bar
+  - press the Search button to see the definition of the word you search for
