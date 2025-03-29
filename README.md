@@ -34,3 +34,21 @@ https://youtu.be/sLBwyZK1kXM
 # credit
 
 free dictionary API from https://dictionaryapi.dev/
+
+## Deployment
+
+-The loadbalancer configuration
+```bash
+# Frontend: Listen for incoming traffic on port 80
+frontend http_front
+    bind *:80                      
+    default_backend http_back
+
+backend http_back
+    balance roundrobin              
+    server web01 184.72.203.182:80 check  
+    server web02 54.162.102.135:80 check  
+```
+
+## The web link is:
+http://davyrwi.tech/
