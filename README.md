@@ -30,3 +30,7 @@ This Application has a search bar where the user enter an English word the he/sh
 
 # Demo video of how it works:
 https://youtu.be/sLBwyZK1kXM
+
+# credit
+
+free dictionary API from https://dictionaryapi.dev/
