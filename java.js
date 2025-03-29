@@ -1,5 +1,5 @@
 document.getElementById("searchBtn").addEventListener("click", function() {
-    const word = document.getElementById("word").value.trim();  // Get the word from the input field
+    const word = document.getElementById("word").value.trim();  
 
     // Check if the input field is empty
     if (word === "") {
@@ -7,7 +7,7 @@ document.getElementById("searchBtn").addEventListener("click", function() {
         return;
     }
 
-    // URL to fetch data from Free Dictionary API
+    // URL to fetch data from API
     const apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
 
     // Fetch the definition from the API
